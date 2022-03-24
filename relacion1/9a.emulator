@@ -1,0 +1,9 @@
+; Describir MTDN (una o varias cintas) que acepta el conjunto de palabras que contienen una subcadena de longitud 4 que se repite aunque no necesariamente de forma consecutiva
+; ACEPTADAS
+; 0102012332130123
+; 01230123
+; NO ACEPTADAS 
+; 0123
+; 010202103020
+q0 a1 a1 q0  
+; Me he rendido

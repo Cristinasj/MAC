@@ -1,0 +1,9 @@
+; Conjunto de cadenas w1º...wn donde wi pertenece a {0,1}* y para algún j, wj coincide con la representación en binario de j. 
+; ACEPTA 
+; 1 
+; 10º10
+; 10º01º11
+; RECHAZA 
+; 0º1º10
+; 01º010
+q,*,_,*,1,*,*,q
