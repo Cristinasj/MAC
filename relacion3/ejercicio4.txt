@@ -1,0 +1,29 @@
+// Programa con variables que concatene dos cadenas sobre {0,1}. Se supone que ambas cadenas están en las variables X1 y X2 y la salida en la variable Y
+
+    IF X1 ENDS 0 GOTO A 
+    IF X1 ENDS 1 GOTO B 
+    GOTO C
+A   X1 <- X1-
+    Y <- 0Y
+    IF X1 ENDS 0 GOTO A 
+    IF X1 ENDS 1 GOTO B 
+    GOTO C   
+B   X1 <- X1-
+    Y <- 1Y
+    IF X1 ENDS 0 GOTO A 
+    IF X1 ENDS 1 GOTO B 
+    GOTO C   
+C   IF X2 ENDS 0 GOTO D 
+    IF X2 ENDS 1 GOTO E 
+    GOTO C
+D   X2 <- X2-
+    Y <- 0Y
+    IF X2 ENDS 0 GOTO D 
+    IF X2 ENDS 1 GOTO E 
+    GOTO C   
+E   X2 <- X2-
+    Y <- 1Y
+    IF X2 ENDS 0 GOTO D 
+    IF X2 ENDS 1 GOTO E 
+    GOTO C   
+ 

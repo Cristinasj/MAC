@@ -1,0 +1,3 @@
+// Dadas dos cadenas ucv tal que u,v pertenecen a {0,1}*, calcular si la vadena u es una sucadena de la cadena v
+
+A if 
