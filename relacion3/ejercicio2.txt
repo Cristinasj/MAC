@@ -1,0 +1,12 @@
+A   if a goto B
+    if 1 goto C  
+B   PRINT 1
+    HALT 
+C   PRINT 0   
+    LEFT 
+    if b goto A
+
+a pertenece a {0,#}
+b pertenece a {0,1,#}
+
+
