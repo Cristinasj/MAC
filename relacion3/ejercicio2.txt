@@ -1,3 +1,7 @@
+// Programa Post-Turing que dado un número calcula u+1
+
+// Mi solución. Me he equivocado porque el lector empieza a la izquierda, no a la derecha
+
 A   if a goto B
     if 1 goto C  
 B   PRINT 1
@@ -9,4 +13,19 @@ C   PRINT 0
 a pertenece a {0,#}
 b pertenece a {0,1,#}
 
+// Ejercicio correcto
 
+IF # GOTO S 
+A   RIGHT 
+    IG 0 GOTO A 
+    LEFT 
+    IF 0 GOTO B 
+    IF 1 GOTO C 
+B   PRINT 1 
+    HALT 
+C   PRINT 0 
+    LEFT 
+    IF 0 GOTO B 
+    IF # GOTO B 
+    IF 1 GOTO C 
+S // Hace que la palabra no se acepte automáticamente 

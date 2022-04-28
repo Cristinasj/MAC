@@ -1,0 +1,17 @@
+// Programa con variables que dada una cadena u perteneciente a {0,1}* calcule la cadena w formada por los símbolos que ocupan las posiciones impares de u en el mismo orden 
+
+    IF u ENDS 0 GOTO A 
+    IF u ENDS 1 GOTO B 
+    HALT
+A   u <- u-
+    u <- u-
+    Y <- 0Y
+    IF u ENDS 0 GOTO A 
+    IF u ENDS 1 GOTO B 
+    HALT   
+B   u <- u-
+    u <- u-
+    Y <- 1Y
+    IF u ENDS 0 GOTO A 
+    IF u ENDS 1 GOTO B 
+    HALT

@@ -1,0 +1,3 @@
+// Problemas con variables que dadas dos cadenas sobre {0,1} calcule el número de apariciones de X1 como subcadena de X2. La salida será un número en binario en Y 
+
+// Este problema es muy largo, recomienda usar macros 

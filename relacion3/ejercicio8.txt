@@ -1,0 +1,17 @@
+// Programa con variables sobre {a,b} que dadas dos cadenas u1, u2 pertenicientes a {a,b}* calcule la cade a u cuyo número verifica Z(u) = Z(u1) + Z(u2) (es decir, hacer la suma de números representados por cadenas de caracteres sobre {a,b})
+
+// Asumo que u1 y u2 tienen el mismo tamaño 
+
+    IF U1 ENDS 0 GOTO [1] 
+    IG U1 ENDS 1 GOTO [2] 
+// Terminan los dos en 1 (b) 
+[A] 
+// Terminan en números diferentes (una en a y otra en b) 
+[B] 
+// Terminan los dos en 0 (a)
+[C] 
+ 
+[1] IF U2 ENDS 0 GOTO [C] 
+    IF U2 ENDS 1 GOTO [B] 
+[2] IF U2 ENDS 0 GOTO [B] 
+    IF U2 ENDS 1 GOTO [A] 

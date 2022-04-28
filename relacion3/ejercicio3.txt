@@ -1,3 +1,21 @@
 // Dadas dos cadenas ucv tal que u,v pertenecen a {0,1}*, calcular si la vadena u es una sucadena de la cadena v
 
-A if 
+// Era la solución de un compa y no estaba muy fina
+
+[A] IF O GOTO [I] 
+    IF 1 GOTO [J]
+    IF C GOTO [S]
+[B] RIGHT 
+    IF 0 GOTO B 
+    IF 1 GOTO B 
+    IG C GOTO D 
+[C] RIGHT 
+    IF 0 GOTO C 
+    IF 1 GOTO G 
+    IF C GOTO E 
+[D] RIGHT 
+    IG X/Y GOTO D 
+    IF 0 PRINT X     
+    .
+    .
+    .

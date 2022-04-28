@@ -1,0 +1,18 @@
+// Construir un programa con variables que acepte L = {w perteneciente a {0,1}* | w = w^{-1}}
+
+// Se le da la vuelta a X1 en X2
+    IF X1 ENDS 0 GOTO A 
+    IF X1 ENDS 1 GOTO B 
+    GOTO C
+A   X1 <- X1-
+    X2 <- 0X2
+    IF X1 ENDS 0 GOTO A 
+    IF X1 ENDS 1 GOTO B 
+    GOTO C   
+B   X1 <- X1-
+    Y <- 1Y
+    IF X1 ENDS 0 GOTO A 
+    IF X1 ENDS 1 GOTO B 
+    GOTO C
+
+// Se comprueba si son iguales 
