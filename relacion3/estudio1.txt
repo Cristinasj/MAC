@@ -1,0 +1,22 @@
+// Va al final 
+[A] right
+    if a goto [A]
+// Borra la última letra 
+    print #  
+// deja un hueco
+    right
+// Poner el pricipio de la nueva palabra 
+    print a 
+// Va al final de la palabra de entrada
+[B] left
+    if a goto [B]
+    if # goto [F]
+[C] left 
+    if # goto [C]
+    if 0 goto [D]
+    if 1 goto [E]
+// Borrar 
+[D] 
+// Llevar al final 
+[E]
+[F] halt 
